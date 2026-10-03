@@ -1,6 +1,6 @@
 <div align="center">
 
-![Epic Purge banner](images/banner.png)
+![Epic Purge banner](banner.png)
 
 **Remove all your Epic Games friends in a few minutes, and keep the ones you want.**
 
@@ -51,7 +51,7 @@ Then start the script:
 python epic_purge.py
 ```
 
-![Install and run](images/04-install-and-run.png)
+![Install and run](04-install-and-run.png)
 
 On macOS or Linux use `python3` instead of `python`.
 
@@ -65,11 +65,11 @@ When the script starts it prints a link. Before you open it, make sure you're lo
 
 Open the link the script printed. You'll see a short block of text with your login code in it. You can copy either just the code, or the whole page (Ctrl+A, then Ctrl+C). The script finds the code by itself.
 
-![Copy the code](images/02-copy-code.png)
+![Copy the code](02-copy-code.png)
 
 If it says `"authorizationCode":null` instead, you weren't logged in. Log in at epicgames.com and open the link again.
 
-![null means not logged in](images/03-null-means-not-logged-in.png)
+![null means not logged in](03-null-means-not-logged-in.png)
 
 The code only works once and runs out after a few minutes, so grab it right before you paste it.
 
@@ -77,7 +77,7 @@ The code only works once and runs out after a few minutes, so grab it right befo
 
 Paste it at the `code:` prompt (in Command Prompt, right-click to paste) and press Enter. It logs in and loads your friends list.
 
-![Paste the code](images/05-paste-code.png)
+![Paste the code](/05-paste-code.png)
 
 ### 4. Type who to keep
 
@@ -91,13 +91,13 @@ Capital letters don't matter, but spelling does. If a name can't be matched, or 
 
 Check the `keeping:` line carefully. If it isn't right, just type anything other than `REMOVE` and nothing happens.
 
-![Choose who to keep](images/06-choose-who-to-keep.png)
+![Choose who to keep](/06-choose-who-to-keep.png)
 
 ### 5. Let it run
 
 It removes friends one at a time with a short pause between each, and prints a counter as it goes. If you see "rate limited, waiting 30s" that's normal, it carries on by itself. You can stop it any time with Ctrl+C.
 
-![Removing](images/07-removing.png)
+![Removing](07-removing.png)
 
 For reference, about 300 friends takes a few minutes (approx 7 minutes) at the default speed.
 
